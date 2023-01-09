@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Handlee&family=Montserrat:wght@100&family=Open+Sans:ital@1&display=swap'); </style>
+
+
+
+
+
+
+
+
+
+h1{
+    color: blue;
+}
+h1:hover{
+    color: blanchedalmond;
+    background-color: brown;
+    padding: 50px;
+    font-size: x-large;
+    font-family: 'Dancing Script', cursive;
+}
+input:focus{
+    background-color: rgb(131, 75, 8);
+    color: rgb(180, 8, 8);
+    padding: 50px;
+}
+a:visited{
+    color: rgb(223, 134, 0);
+}
+a{
+    color: black;
+}
+li:first-child{
+    color: blueviolet;
+}
+li:last-child{
+    color: blue;
+}
+li:nth-child(2n){
+    color: chartreuse;
+}
+li:nth-child(2n+1){
+    color: darkorange;
+}
+ul > li::before{
+    content: 'hello';
+}
+ul > li::after{
+    content: 'gelo';
+    color: crimson;
+    font-size: 16px;
+}
